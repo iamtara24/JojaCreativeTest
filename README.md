@@ -27,6 +27,7 @@ Pastikan Anda memiliki Node.js dan npm terinstal di komputer Anda.
     ```
 
 2. **Buka di browser:**
+
     Akses aplikasi di [http://localhost:3000](http://localhost:3000)
     *Biasanya akan terbuka secara otomatis saat NPM start dimulai*
 
