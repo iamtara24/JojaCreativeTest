@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './assets/css/main.css';
 import Homepage from './view/homepage';
 import ListSearch from './view/listSearch';
+import MovieList from './view/movieList';
 
 const App: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const App: React.FC = () => {
         <Route>
           <Route path="/" element={<Homepage />} />
           <Route path="/results" element={<ListSearch />} />
+          <Route path="/all-movies" element={<MovieList />} />
           {/* <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> */}
         </Route>

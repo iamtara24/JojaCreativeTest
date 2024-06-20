@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import { Box, Button, Container, TextField, Typography, Stack, CircularProgress } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
@@ -94,6 +94,11 @@ const Homepage: React.FC = () => {
             </Button>
           </Stack>
           {error && <Typography color="error">{error}</Typography>}
+          <Typography variant="body2" color="secondary" sx={{ mt: 2, fontStyle: 'italic' }}>
+            <Link to="/all-movies" style={{ textDecoration: 'none', color: 'red' }}>
+              Atau lihat semua daftar film disini
+            </Link>
+          </Typography>
         </Stack>
       </Container>
     </Box>
