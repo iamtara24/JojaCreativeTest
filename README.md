@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# Instalasi dan Menjalankan Aplikasi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan aplikasi secara lokal.
 
-## Available Scripts
+## Prasyarat
 
-In the project directory, you can run:
+Pastikan Anda memiliki Node.js dan npm terinstal di komputer Anda.
 
-### `npm start`
+## Langkah Instalasi
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Clone repository ini:**
+    ```bash
+    git clone https://github.com/iamtara24/JojaCreativeTest
+    cd JojaCreativeTest
+    ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. **Instalasi dependensi:**
+    ```bash
+    npm install
+    ```
 
-### `npm test`
+### Menjalankan Aplikasi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Jalankan aplikasi:**
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+2. **Buka di browser:**
+    Akses aplikasi di [http://localhost:3000](http://localhost:3000)
+    *Biasanya akan terbuka secara otomatis saat NPM start dimulai*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Movie Search App - Technical Test
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ini adalah hasil technical test yang menunjukkan kemampuan saya dalam membangun aplikasi web menggunakan React, TypeScript, dan Material-UI, serta mengintegrasikan API OMDB untuk mencari informasi film.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deskripsi Proyek
 
-### `npm run eject`
+Movie Search App adalah aplikasi web yang memungkinkan pengguna mencari informasi tentang film berdasarkan judul. Aplikasi ini menampilkan detail film termasuk poster, genre, rating, dan durasi film. Dibuat sebagai bagian dari technical test untuk menunjukkan keterampilan pengembangan front-end.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Fitur Utama
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Pencarian Film**: Pengguna dapat mencari film berdasarkan judul.
+- **Detail Film**: Menampilkan poster, genre, rating, dan durasi film untuk setiap film.
+- **Halaman Hasil Pencarian**: Menampilkan daftar film yang sesuai dengan kata kunci pencarian.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Teknologi yang Digunakan
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- TypeScript
+- Material-UI
